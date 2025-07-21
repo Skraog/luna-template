@@ -1,0 +1,15 @@
+{
+	"name": "@void/tidalsync",
+	"description": "Synchro Tidal/Spotify Void",
+	"homepage": "https://github.com/Inrixia/luna-plugins#DiscordRPC",
+	"author": {
+		"name": "Skraog",
+		"url": "https://github.com/Skraog",
+		"avatarUrl": "https://voids.gay/favicon.webp"
+	},
+	"exports": "./src/index.ts",
+	"dependencies": {
+		"@xhayper/discord-rpc": "^1.3.0",
+		"axios": "^1.10.0"
+	}
+}
