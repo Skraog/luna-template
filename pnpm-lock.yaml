@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@inrixia/helpers':
+        specifier: ^3.20.3
+        version: 3.20.3
     devDependencies:
       '@types/node':
         specifier: ^22.15.29
