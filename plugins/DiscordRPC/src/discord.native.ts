@@ -1,7 +1,9 @@
 import { Client, type SetActivity } from "@xhayper/discord-rpc";
 import axios from "axios";
-@
+
+// let rpcClient: Client | null = null;
 let rpcClient: Client | null = null;
+
 export const getClient = async () => {
 	const isAvailable = rpcClient && rpcClient.transport.isConnected && rpcClient.user;
 	if (isAvailable) return rpcClient!;
